@@ -4,6 +4,5 @@ jobs:
   output:
     runs-on: ubuntu-latest
     steps:
-      - name: hello-world
       - uses: actions/checkout@v2
-        run: make say-hello
+      - run: make say-hello
